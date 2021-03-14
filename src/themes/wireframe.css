@@ -1,0 +1,285 @@
+/* PARTS */
+/*  */
+/*  */
+/*  */
+    /* Typing */
+/*  */
+.typing-text {
+    width: 100%;
+    display: flex;
+    padding: 2.5%;
+    justify-content: center;
+}
+/*  */
+/*  */
+    /* AboutMe */
+/*  */
+.AboutMeCard {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #212121d8;
+}
+
+.blockquote h3 {
+    text-align: center;
+}
+
+.blockquote footer {
+    text-align: right;
+}
+/*  */
+/*  */
+    /* ProjectsLinks */
+/*  */
+.project-link-body {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.project-link {
+    font-size: 4vh;
+    outline: none;
+    color:#a3a3a3;
+    border: none;
+    text-decoration: none;
+}
+/*  */
+/*  */
+    /* SocialLinks */
+/*  */
+.social-link-body {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.social-link-body button {
+    outline: hidden;
+    border: none;
+}
+
+.social-link {
+    font-size: 4vh;
+    outline: none;
+    color:#a3a3a3;
+    border: none;
+    text-decoration: none;
+}
+
+
+/*  */
+/*  */
+/*  */
+/* Sections */
+/*  */
+/*  */
+/*  */
+    /* Navbar */
+/*  */
+@import url("https://use.typekit.net/pul8uqv.css");
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:#212121d8;
+}
+.navTitle {
+    font-family: capucine-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color:#a3a3a3;
+}
+.navTitle:visited {
+    text-decoration: none;
+}
+.right-link-nav {
+    text-decoration: none;
+    color:#a3a3a3;
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+a:visited {
+    text-decoration: none;
+}
+/*  */
+/*  */
+    /* Pages */
+/*  */
+/*  */
+    /* Contact ME Section  */
+/*  */
+.contact-container {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+.contact-form {
+    padding: 5%;
+}
+.boxy {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #212121d8;
+}
+/*  */
+    /*   Contact Page   */
+
+/*  */
+/*  */
+    /* Home */
+/*  */
+.boxy {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #212121d8;
+}
+
+.homepage-container {
+    height: 100%;
+    width: 100vw;
+}
+
+.homepage-header-container {
+    height: 68vh;
+    width: auto;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+}
+
+.homepage-header-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-container {
+    width: auto; 
+    height: auto;
+    margin-top: 2.5%;
+}
+
+.about-row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-container-item {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5%;
+}
+
+.social-links-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+}
+
+
+/*  */
+/*  */
+    /* Projects */
+/*  */
+.boxy {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #212121d8;
+}
+.projects-container {
+    height: 40%;
+    width: 100vw;
+    padding-top: 2.5%;
+}
+.projects-header-container {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.projects-header-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projects-header {
+    width: min-content;
+}
+.project-container {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-container-item {
+    margin: .5%;
+    padding: 2.5%;
+}
+
+.projects-links-row {
+    height: 100%;
+    width: 100%;
+    padding: 2.5%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .NavBrand {
+        display: none;
+    }
+    .right-nav-self-links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .social-links-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        height: 15vh;
+    }
+
+    .home {
+        display: none;
+    }
+}
+
+
+
