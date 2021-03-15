@@ -5,7 +5,6 @@ import Typing from '../components/parts/Typing';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import '../styles/Home.css';
 
 export default function HomePage() {
     return (

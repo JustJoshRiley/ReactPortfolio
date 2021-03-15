@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import '../components_styled/About.css';
 
 
 export default function AboutMe() {

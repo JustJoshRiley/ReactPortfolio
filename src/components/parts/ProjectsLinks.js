@@ -2,7 +2,6 @@ import React from 'react'
 import Row from 'react-bootstrap/Row';
 import { FaPython, FaReact, FaJsSquare, FaGithub  } from "react-icons/fa";
 
-// import '../components_styled/ProjectsLinks.css';
 
 export default function ProjectsLinksBox() {
     return (

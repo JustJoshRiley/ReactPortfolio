@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectsLinks from '../components/parts/ProjectsLinks';
 // import ProjectAccordian from '../components/Project/Accordian';
-// import '../styles/Projects.css';
 
 export default function Projects() {
     return (

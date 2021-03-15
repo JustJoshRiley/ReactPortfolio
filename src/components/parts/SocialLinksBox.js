@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import { FaMediumM, FaLinkedinIn, FaFilePdf } from "react-icons/fa";
 import { GoMarkGithub } from "react-icons/go";
-// import '../components_styled/SocialLinks.css';
 
 export default function SocialLinksBox() {
     return (
