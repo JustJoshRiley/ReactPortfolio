@@ -1,4 +1,4 @@
-.project-link-body {
+.projects-links-body {
     height: 6vh;
     width: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.project-link {
+.projects-links {
     font-size: 4vh;
     outline: none;
     color:#a3a3a3;

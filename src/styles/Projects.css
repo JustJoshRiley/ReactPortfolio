@@ -3,12 +3,12 @@
     border-width: 3px;
     border-color: #212121d8;
 }
-.projects-container {
+.projectsPage-container {
     height: 40%;
     width: 100vw;
     padding-top: 2.5%;
 }
-.projects-header-container {
+.projectsPage-header-container {
     height: auto;
     width: auto;
     display: flex;
@@ -19,15 +19,15 @@
     padding-right: 5%;
 }
 
-.projects-header-text{
+.projectsPage-header-text{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.projects-header {
+.projectsPage-header {
     width: min-content;
 }
-.project-container {
+.projectsPage-container {
     height: 100%;
     width: 100%;
     margin-top: 5%;
@@ -35,19 +35,19 @@
     display: flex;
     justify-content: space-evenly;
 }
-.projects-row {
+.projectsPage-row {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.project-container-item {
+.projectsPage-container-item {
     margin: .5%;
     padding: 2.5%;
 }
 
-.projects-links-row {
+.projectsPage-links-row {
     height: 100%;
     width: 100%;
     padding: 2.5%;

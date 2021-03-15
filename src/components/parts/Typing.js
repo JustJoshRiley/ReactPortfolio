@@ -1,6 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical';
-import '../components_styled/Typing.css';
+// import '../components_styled/Typing.css';
 
 export default function Typing() {
     return (

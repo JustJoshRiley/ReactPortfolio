@@ -4,10 +4,10 @@
     border-color: #212121d8;
 }
 
-.blockquote h3 {
+.AboutMe-blockquote-header {
     text-align: center;
 }
 
-.blockquote footer {
+.AboutMe-blockquote footer {
     text-align: right;
 }

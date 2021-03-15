@@ -5,15 +5,15 @@ import Card from 'react-bootstrap/Card';
 
 export default function AboutMe() {
     return (
-    <div className="AboutMeCard">
+    <div className="AboutMeCard boxy">
         <Card>
             <Card.Body>
                 <blockquote className="blockquote mb-0">
-                    <h3>
+                    <h3 className='AboutMe-blockquote-header'>
                     {' '}
                     Things aren’t always #000000 and #FFFFFF{' '}
                     </h3>
-                    <footer className="blockquote-footer">
+                    <footer className="AboutMe-blockquote-footer">
                     HTML
                     </footer>
                 </blockquote>

@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/pul8uqv.css");
 
-.nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     border-bottom-style: solid;
@@ -8,36 +8,34 @@
     border-bottom-color:#212121d8;
 }
 
-.NavBrand h2 {
+.navTitle {
     font-family: capucine-web, sans-serif;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
     color:#a3a3a3;
 }
-h4:visited {
+.navTitle:visited {
     text-decoration: none;
 }
 
-
-
-.right-link-nav {
+.navbar-right-link {
     text-decoration: none;
     color:#a3a3a3;
     font-weight: 700;
     font-size: 2.5vh;
 }
 
-a:visited {
+.navbar-right-link:visited {
     text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
 
-    .NavBrand {
+    .navTitle {
         display: none;
     }
-    .right-nav-self-links {
+    .navbar-right-self {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -47,10 +45,9 @@ a:visited {
 }
 
 @media screen and (min-width: 768px) {
-    .nav {
+    .navbar {
         height: 15vh;
     }
-
     .home {
         display: none;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Form, FormGroup } from 'react-bootstrap';
-// import '../../styles';
+// import '../../styles/Contact.css';
 
 export default function ContactForm() {
 
