@@ -6,6 +6,10 @@ body {
     background-color: #fafafa;
 }
 
+.calendly-badge-widget {
+    display: block;
+} 
+
 
 /*  */
 /*  */
@@ -53,6 +57,9 @@ body {
     width: auto; 
     height: auto;
     margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homepage-about-row {
@@ -65,11 +72,15 @@ body {
 }
 
 .homepage-about-container-item {
-    display: flex;
     height: fit-content;
+    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin: 2.5%;
+}
+
+.homepage-aboutMe-item {
     margin: 2.5%;
 }
 
@@ -90,54 +101,66 @@ body {
 /*  */
 /* Projects.js */
 .projectsPage-container {
-    height: 40%;
-    width: 100vw;
     padding-top: 2.5%;
-}
-.projectsPage-header-container {
     height: auto;
     width: auto;
+}
+.projectsPage-container-row {
+    height: auto;
+    width: auto;
+    
+}
+
+.projectsPage-row {
+    padding: 10%;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .projectsPage-header-text{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
-.projectsPage-header {
-    width: min-content;
+
+.tab-nav {
+    margin-top: 5%;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
-.projectsPage-container {
-    height: 100%;
+
+.tab-content {
     width: 100%;
     margin-top: 5%;
+}
+
+.projectsPage-item {
+    height: 100%;
+    width: 100%;
+}
+.projectsPageCard {
+    margin-bottom: 5%;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.projectCard-iframe{
+    height: calc(100vh - 95px)!important;
+    width: 100%!important;
+}
+
+.projectsPageCard-text{
     margin-bottom: 2.5%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.projectsPage-row {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 2.5%;
 }
 
-.projectsPage-container-item {
-    margin: .5%;
-    padding: 2.5%;
-}
 
-.projectsPage-links-row {
-    height: 100%;
-    width: 100%;
-    padding: 2.5%;
-}
+
 
 
 /*  */
@@ -206,16 +229,14 @@ body {
 /*  */
 /* About.Js */
 .AboutMeCard {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #212121d8;
+    
 }
 
 .AboutMe-blockquote-header {
     text-align: center;
 }
 
-.AboutMe-blockquote footer {
+.blockquote footer {
     text-align: right;
 }
 
@@ -261,23 +282,6 @@ body {
 }
 
 
-/* ProjectsLinks.js */
-.projects-links-body {
-    height: 6vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-.projects-links {
-    font-size: 4vh;
-    outline: none;
-    color:#a3a3a3;
-    border: none;
-    text-decoration: none;
-}
-
 /* Media Queries */
 
 
@@ -296,6 +300,39 @@ body {
     .homepage-social-links-container {
         display: none;
     }
+
+    .projectsPage-container {
+        height: auto;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .projectsPage-row {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .projectsPageCard {
+        padding: 0;
+        height: auto;
+        width: 100%;
+    }
+    .tab-nav {
+        margin-top: 10%;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .tab-content {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .calendly-badge-widget {
+        display: none;
+    } 
 }
 
 @media screen and (min-width: 768px) {
@@ -309,6 +346,9 @@ body {
         width: 100%;
         display: flex;
         justify-content: flex-end;
+    }
+    .projectsPageCard {
+        padding: 10%;
     }
 }
 

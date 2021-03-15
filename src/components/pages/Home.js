@@ -1,7 +1,7 @@
 import React from 'react';
-import SocialLinksBox from '../components/parts/SocialLinksBox';
-import AboutMe from '../components/sections/AboutMe';
-import Typing from '../components/parts/Typing';
+import SocialLinksBox from '../pagesPieces/SocialLinksBox';
+import AboutMe from '../sections/AboutMe';
+import Typing from '../pagesPieces/Typing';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -22,7 +22,7 @@ export default function HomePage() {
                                 style={{ height: '50%', width: '50%'}}
                             />
                         </Col>
-                        <Col xs={12} md={6} className="homepage-about-container-item">
+                        <Col xs={12} md={6} className="homepage-aboutMe-item">
                             <AboutMe />
                         </Col>
                     </Row>

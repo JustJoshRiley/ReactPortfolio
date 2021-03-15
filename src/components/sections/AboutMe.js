@@ -8,11 +8,11 @@ export default function AboutMe() {
         <Card>
             <Card.Body>
                 <blockquote className="blockquote mb-0">
-                    <h3 className='AboutMe-blockquote-header'>
+                    <h4 className='AboutMe-blockquote-header'>
                     {' '}
                     Things aren’t always #000000 and #FFFFFF{' '}
-                    </h3>
-                    <footer className="AboutMe-blockquote-footer">
+                    </h4>
+                    <footer className="blockquote-footer">
                     HTML
                     </footer>
                 </blockquote>
