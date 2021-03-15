@@ -305,5 +305,10 @@ body {
     .home {
         display: none;
     }
+    .navbar-right-self {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
