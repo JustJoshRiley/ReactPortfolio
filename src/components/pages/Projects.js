@@ -5,9 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Tab from 'react-bootstrap/Tab'; 
 import Nav from 'react-bootstrap/Nav';
-import '../../themes/Specific/removeCalendlyBadge.css';
-import ProjectsLinks from '../pagesPieces/ProjectsLinks';
-// import ProjectAccordian from '../components/Project/Accordian';
 
 export default function Projects() {
     return (
@@ -23,10 +20,13 @@ export default function Projects() {
                     <Col xs={11}>
                         <Nav variant="pills" className="tab-nav">
                             <Nav.Item>
-                            <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                            <Nav.Link eventKey="first">Hoya</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                            <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                            <Nav.Link eventKey="second">BMR</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                            <Nav.Link eventKey="third">Crazy Portfolio</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Col>
@@ -48,7 +48,7 @@ export default function Projects() {
                                 <Tab.Pane eventKey="second">
                                     <Col xs={12} className=" ">
                                     <Card className=" text-black ">
-                                        <img ></img>
+                                        {/* <img ></img> */}
                                         <iframe className="projectCard-iframe" src="https://justjoshriley.github.io/Calculator-Web/" title="BMR Calculator"></iframe>
                                             <Card.Title className="projectsPageCard-text">BMR Calculator </Card.Title>
                                             <Card.Text className="projectsPageCard-text">
@@ -59,14 +59,22 @@ export default function Projects() {
                                         </Card>
                                     </Col>
                                 </Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                    <Col xs={12} className=" ">
+                                    <Card className=" text-black ">
+                                        {/* <img ></img> */}
+                                        <iframe className="projectCard-iframe" src="https://joshriley.tech" title="Crazy Portfolio"></iframe>
+                                            <Card.Title className="projectsPageCard-text">Crazy Portfolio </Card.Title>
+                                            <Card.Text className="projectsPageCard-text">
+                                            This portfolio represents my past, present, and future as an engineer. My portfolio will continue to grow with me. New additions added weekely. 
+                                            </Card.Text>
+                                            <Card.Text className="projectsPageCard-text">Current Tech Stack: React | CSS | Javascript</Card.Text>
+                                        </Card>
+                                    </Col>
+                                </Tab.Pane>
                         </Tab.Content>
                     </Col>
                 </Tab.Container>
-                {/* <Row className="projectsPage-links-row"> 
-                    <Row xs={1}>
-                        <ProjectsLinks />
-                    </Row>
-                </Row> */}
             </Row>
         </Container>
     </>
